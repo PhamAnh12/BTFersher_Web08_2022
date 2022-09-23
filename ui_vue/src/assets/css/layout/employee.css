@@ -1,0 +1,31 @@
+@import url(../layout/navbar.css);
+@import url(../layout/header.css);
+@import url(../layout/content.css);
+.container{
+   height: 100vh;
+   
+}
+.navbar{
+ 
+  background-color: #041434;
+  border: 1px solid #041434;
+  height: 100vh;
+  overflow-y: auto;
+  width: 200px;
+  float: left;
+  
+}
+.main{
+   height: 100vh;
+   width: calc(100% - 200px);
+   float: right;
+}
+.header{
+    height: 56px;
+}
+.content{
+   height: calc(100vh - 56px);
+   padding: 24px 24px 12px 24px;
+  
+}
+

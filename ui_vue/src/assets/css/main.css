@@ -1,0 +1,90 @@
+@import url(./base/icon.css);
+@import url(./base/button.css);
+@import url(./base/radio.css);
+@import url(./base/checkbox.css);
+@import url(./base/input.css);
+@import url(./base/table.css);
+@import url(./base/page.css);
+@import url(./base/modal.css);
+@import url(./base/dialog.css);
+@import url(./base/function.css);
+@import url(./base/padding.css);
+@import url(./base/margin.css);
+@import url(./base/loading.css);
+@import url(./base/loadingData.css);
+@import url(./base//toast.css);
+@import url(./base/ms-combobox.css);
+:root {
+  --primary-color: #089740;
+  --hover-color: rgba(8, 151, 64, 0.85);
+  --white-color: #ffffff;
+  --border-color: #babec5;
+  --border-table-color:#c7c7c7;
+  --tr-hover-color: #EEF8EC;
+  --layout-color: rgba(0, 0, 0, 0.35);
+  --height-button : 36px;
+  --border-radius : 4px;
+  --height-input: 32px;
+  --bg-click-color:#DCF1D8;
+}
+
+body {
+  color: #1f1f1f;
+  margin: 0;
+  padding: 0;
+ 
+  font-size: 14px;
+}
+* {
+  box-sizing: border-box;
+  font-family: GoogleSans-Regular;
+}
+@font-face {
+  font-family: GoogleSans-Regular;
+  src: url(../fonts/notosans-regular.2cb88a13.woff2);
+}
+@font-face {
+  font-family: GoogleSans-Medium;
+  src: url(../fonts/notosans-semibold.df3e6dc4.woff2);
+}
+
+.align-right {
+  text-align: right;
+}
+
+.content__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.align__items__center{
+  display: flex;
+  align-items: center;
+}
+.flex__between{
+  display: flex;
+  justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7C869C;
+}

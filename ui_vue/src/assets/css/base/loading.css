@@ -1,0 +1,41 @@
+  
+  @keyframes placeHolderShimmer {
+    0% {
+      background-position: -800px 0
+    }
+    100% {
+      background-position: 800px 0
+    }
+  }
+  
+
+.loading__container{
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.loading{
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #bbbbbb 20%, #eeeeee 33%);
+    background-size: 800px 104px; 
+    position: relative;
+    width: 80%;
+    height: 36%;
+    border-radius: 3px;
+}
+.loading__checkbox{
+    width: 16px;
+    height: 16px;
+   
+}

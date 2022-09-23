@@ -1,0 +1,31 @@
+.btn{
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    height: var(--height-button); 
+    min-width: 80px;
+    color: var(--white-color);
+    line-height: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+
+}
+.btn__base{
+    border-radius: var(--border-radius);
+    height: var(--height-button) ; 
+    width: 80px;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #1F2229;
+    font-weight: 500;
+    border: 1px solid #D3D7DE;
+   
+    
+}
+.btn__base:hover{
+   background-color: #f8f8f8f8;
+}
+.btn:hover{
+    background-color:var(--hover-color) ;
+}

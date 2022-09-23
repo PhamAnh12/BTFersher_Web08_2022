@@ -1,0 +1,13 @@
+input[ type=checkbox] {
+    cursor: pointer;
+    accent-color: var(--primary-color);
+    height: 16px;
+    width: 16px;
+
+}
+.checkbox__24{
+    height: 24px;
+    width: 24px;
+}
+
+    

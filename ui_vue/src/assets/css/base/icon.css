@@ -1,0 +1,161 @@
+.navbar {
+  position: relative;
+}
+.item__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.icon{
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat;
+}
+
+.icon__24 {
+  width: 24px;
+  height: 24px;
+}
+.icon__20 {
+  width: 20px;
+  height: 20px;
+}
+
+.icon__18 {
+  width: 18px;
+  height: 18px;
+}
+.icon__16 {
+  width: 16px;
+  height: 16px;
+}
+.icon__32 {
+  width: 32px;
+  height: 32px;
+}
+
+.icon__44 {
+  width: 44px;
+  height: 45px;
+}
+.icon__setting {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -33px -144px;
+}
+.icon__close {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -147px -147px;
+}
+.icon__search {
+  background: url("../../img/Sprites.64af8f61.svg")no-repeat -316px -148px;
+
+	position: absolute;
+  top:8px;
+  right: 8px;
+  cursor: pointer;
+  
+}
+.icon__total {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -1157px -32px;
+}
+.icon__menu{
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat -847px -35px;
+}
+.icon__logo {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat -1232px -1015px;
+
+}
+.icon__overview{
+  background:   url("../../img/Sprites.64af8f61.svg") no-repeat -33px -1630px;
+	width: 18px;
+	height: 20px;
+}
+.icon__monney {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -78px -1631px;
+
+}
+.icon__deposits {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -121px -1633px;
+
+}
+.icon_purchase {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -165px -1632px;
+}
+.icon__sale {
+  background:   url("../../img/Sprites.64af8f61.svg") no-repeat -206px -1631px;
+  width: 20px;
+}
+.icon__management {
+  background:   url("../../img/Sprites.64af8f61.svg") no-repeat  -254px -1632px
+}
+.icon__warehouse {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -294px -1632px;
+}
+.icon__tool {
+  background:   url("../../img/Sprites.64af8f61.svg") no-repeat  -339px -1633px;
+}
+.icon__fixed-assets {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat  -382px -1632px;
+}
+.icon__tax {
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat  -427px -1634px;
+  
+}
+.icon__pice {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat -471px -1633px;
+}
+.icon__synthetic {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat  -514px -1632px;
+}
+.icon__budget {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat  -382px -1664px;
+}
+.icon__report {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat  -552px -1636px;
+}
+.icon__analysis {
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat  -207px -1667px
+}
+.icon__notification{
+  background:  url("../../img/Sprites.64af8f61.svg") no-repeat  -844px -520px;
+	width: 18px;
+	height: 19px;
+}
+.icon__acc__img{
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -352px -894px;
+	width: 32px;
+	height: 32px;
+}
+.icon__account__down{
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -1078px -38px;
+	width: 9px;
+	height: 6px;
+}
+.icon__load{
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -425px -201px;
+  
+}
+.icon__page{
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -1510px -481px;
+	width: 10px;
+	height: 2px;
+}
+.icon__help{
+  background: url("../../img/Sprites.64af8f61.svg") no-repeat -732px -31px;
+  width: 22px;
+  height: 22px;
+}
+.icon__warning{
+  background: url('../../img/Sprites.64af8f61.svg') no-repeat -598px -463px;
+	width: 36px;
+	height: 37px;
+}
+.icon__employee{
+  background: url('../../img/Sprites.64af8f61.svg')  no-repeat -592px -1631px;
+	width: 23px;
+	height: 18px;
+}
+.icon__ask{
+  background: url('../../img/Sprites.64af8f61.svg') no-repeat -832px -462px;
+	width: 36px;
+	height: 36px;
+}
